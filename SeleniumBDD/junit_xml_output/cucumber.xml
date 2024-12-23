@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.457" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Enter email on google signIn page" name="user should be able to navigate to google sign in page" time="11.165">
+<failure type="java.lang.AssertionError" message="NO_MATCH_ERROR expected [Welcome] but found [Sign in]">
+<![CDATA[java.lang.AssertionError: NO_MATCH_ERROR expected [Welcome] but found [Sign in]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at stepdefinations.google.EnterEmailAddressGoogleSignInSteps.i_should_see_welcome_text(EnterEmailAddressGoogleSignInSteps.java:59)
+	at ✽.I should see Welcome text(file:///C:/Users/hassan/Desktop/SDET/project/LMS-draft-master/SeleniumBDD-NEW/src/test/resources/features/google/enter_Email_Address_In_GoogleSignIn_Page.feature:10)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is on google dash boards.........................................passed
+When I will click on signIn buttons.........................................passed
+Then I should see Use your Google Account text on signin pages..............passed
+When I input email adress...................................................passed
+And I click on next button..................................................passed
+Then I should see Welcome text..............................................failed
+]]></system-out>
+</testcase>
+</testsuite>
