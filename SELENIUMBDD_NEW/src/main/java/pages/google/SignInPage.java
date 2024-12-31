@@ -25,7 +25,7 @@ public class SignInPage {
     }
 
     public void enterEmailOrPhone(String email) {
-        this.emailOrPhone.sendKeys(new CharSequence[]{email});
+        this.emailOrPhone.sendKeys(email);
     }
 
     public void clickOnNextButton() {

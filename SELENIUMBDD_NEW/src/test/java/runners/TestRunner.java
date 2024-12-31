@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
         plugin = {"pretty", "html:test-output", "json:json_output/cucumber.json", "junit:junit_xml_output/cucumber.xml"},
         dryRun = false,
         monochrome = true,
-        tags = "@googleEmail"
+        tags = "@googleaboutPage"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
     public TestRunner() {
